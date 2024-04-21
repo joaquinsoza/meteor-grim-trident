@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "coderippergrim",
+  "version": "${version}",
+  "name": "coderipper's Grim Disabler",
+  "description": "A repo for public bypasses.",
+  "authors": ["coderipper"],
+  "contact": {
+    "repo": ""
+  },
+  "icon": "assets/5c/logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["org.coderipper.addon.Addon"]
+  },
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=${mc_version}",
+    "meteor-client": "*"
+  }
+}
